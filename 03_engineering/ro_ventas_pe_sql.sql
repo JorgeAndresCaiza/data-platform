@@ -1307,3 +1307,7 @@ and fecha between to_date(getArgument("range_start"),'yyyy-MM-dd') AND to_date(g
 -- COMMAND ----------
 
 -- OPTIMIZE db_gold.ro_ventas ZORDER by (fecha)
+
+-- COMMAND ----------
+
+-- SELECT * FROM db_gold.ro_ventas
