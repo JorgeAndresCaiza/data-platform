@@ -63,8 +63,8 @@ FROM  db_silver_pe.tcurr
 LEFT OUTER JOIN (select * from db_silver.cat_pais where etlSourceDatabase='PE' and etlSourceSystem='SAP') c ON tcurr.tcurr = c.moneda
 WHERE tcurr.KURST= 'M'
 AND tcurr.FCURR = 'USD' 
-AND tcurr.tcurr IN ('BOB','PEN')
-AND MANDT=db_parameters.udf_get_parameter('sap_hana_pe_default_mandt')
+AND tcurr.tcurr IN ('BOB','PEN','CLP')
+AND MANDT=db_parameters.udf_get_parameter('sap_hana_pe_default_mandt') AND DOUBLE(tcurr.UKURS) > 0
 
 -- COMMAND ----------
 
