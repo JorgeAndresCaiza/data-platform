@@ -11,7 +11,7 @@
 -- MAGIC 
 -- MAGIC **Fuente:** JB_DWH_VENTAS_SAP_ECU_TD | WF_VENTAS_DIARIAS_SAP_TD_WHOLESALE
 -- MAGIC 
--- MAGIC **Desarrollador:** Alejandro Paccha
+-- MAGIC **Desarrollador:** Alejandro Paccha y Jonathan Jácome
 -- MAGIC 
 -- MAGIC **Detalle de Reglas Aplicadas**
 -- MAGIC 
