@@ -157,7 +157,7 @@ WHERE PED.codEstadoDocumento = '02' AND VP.codPais='BO'
 
 -- DBTITLE 1,Borrar pedidos "EN PREPARACIÓN" de ro_ventas
 DELETE FROM db_gold.ro_ventas
-WHERE codEstadoDocumentoPedido = '02' AND codPais='BO' AND etlSourceDatabase='PE'
+WHERE codEstadoDocumentoPedido = '02' AND codPais IN ('BO','PE') AND etlSourceDatabase='PE' --Se ajusto en rama BugfixCosto
 
 -- COMMAND ----------
 
