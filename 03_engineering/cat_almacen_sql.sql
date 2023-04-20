@@ -8,7 +8,7 @@
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC # Catálogo de Almacenes 
+-- MAGIC # Catálogo de Almacenes Se modifico por Andrés Caiza el 19 de Abril 2023
 -- MAGIC 
 -- MAGIC 
 -- MAGIC **Fuentes:** 
